@@ -1,0 +1,43 @@
+{
+  "name": "express-locallibrary-tutorial",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=v16.15.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "debug": "~4.3.4",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "http-errors": "~2.0.0",
+    "luxon": "^3.4.4",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "description": "Tutorial \"Local Library\" website written in in Node/Express.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raiss14/express-locallibrary-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raiss14/express-locallibrary-tutorial/issues"
+  },
+  "homepage": "https://github.com/Raiss14/express-locallibrary-tutorial#readme"
+}
